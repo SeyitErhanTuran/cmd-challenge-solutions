@@ -14,18 +14,20 @@ Questions are from [cmdchallenge.com](https://cmdchallenge.com).
 8.  [Copy File](#8-copy-file)
 9.  [Move File](#9-move-file)
 10. [Symbolic Link](#10-symbolic-link)
-
-       
+ 
 ---
 
 ## 📑 Table of Contents
-
-| 1. [Hello World](#1-hello-world) | 2. [Current Working Directory](#2-current-working-directory) | 3. [List Files](#3-list-files)                 | 4. [File Contents](#4-file-contents) |
-|----------------------------------|--------------------------------------------------------------|------------------------------------------------|--------------------------------------|
-| 5. [Last Lines](#5-last-lines)   | 6. [Create a File](#6-create-a-file)                         | 7. [Create a Directory](#7-create-a-directory) | 8. [Copy a File](#8-copy-a-file)     |
-| 9. [Move a File](#9-move-a-file) | 10. [Symbolic Link](#10-symbolic-link)                       |  …                                             |  …                                   |
-               
-
+1.  [Hello World](#1-hello-world)                                 | 1.  [Hello World](#1-hello-world) 
+2.  [Current Working Directory](#2-current-working-directory)     | 2.  [Current Working Directory](#2-current-working-directory) 
+3.  [List Files](#3-list-files)                                   | 3.  [List Files](#3-list-files)     
+4.  [File Contents](#4-file-contents)                             | 4.  [File Contents](#4-file-contents) 
+5.  [Last Lines](#5-last-lines)                                   | 5.  [Last Lines](#5-last-lines)      
+6.  [Create a File](#6-create-a-file)                             | 6.  [Create a File](#6-create-a-file)          
+7.  [Create a Directory](#7-create-a-directory)                   | 7.  [Create a Directory](#7-create-a-directory)  
+8.  [Copy File](#8-copy-file)                                     |
+9.  [Move File](#9-move-file)                                     |
+10. [Symbolic Link](#10-symbolic-link)                            |
 
 ---
 
