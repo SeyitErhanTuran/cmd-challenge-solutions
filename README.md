@@ -4,13 +4,13 @@ This repository contains my personal solutions to the [CMD Challenge](https://cm
 Questions are from [cmdchallenge.com](https://cmdchallenge.com).
 
 ## 📑 Table of Contents
-1.  [Hello World](#1-print-hello-world)  
-2.  [Current Working Directory](#2-print-the-current-working-directory)
-3.  [List Files](#3-list-files-in-the-current-directory)
-4.  [File Contents](#4-display-the-contents-of-accesslog)
-5.  [Last Lines](#5-print-the-last-5-lines-of-accesslog)
-6.  [Create a File](#6-create-an-empty-file-named-take-the-command-challenge)
-7.  [Create a Directory](#7-create-a-directory-tmpfiles)
+1.  [Hello World](#1-hello-world)  
+2.  [Current Working Directory](#2-current-working-directory)
+3.  [List Files](#3-list-files)
+4.  [File Contents](#4-file-contents)
+5.  [Last Lines](#5-last-lines)
+6.  [Create a File](#6-create-a-file)
+7.  [Create a Directory](#7-create-a-directory)
 8.  [Copy File](#8-copy-file)
 9.  [Move File](#9-move-file)
 10. [Symbolic Link](#10-symbolic-link)
@@ -120,6 +120,11 @@ mv take-the-command-challenge tmp/files
 ```bash
 ln -s tmp/files/take-the-command-challenge take-the-command-challenge
 ```
+Note:
+"ln -s" a symbolic (soft) link command, similar to a shortcut.
+If the original file is deleted, the symlink becomes broken.
+Unlike symlinks, hard links point directly to the file’s content (inode).
+Editing the file through a hard link also changes the original, since they share the same data.
 
 ---
 
