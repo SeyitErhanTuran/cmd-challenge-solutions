@@ -4,19 +4,18 @@ This repository contains my personal solutions to the [CMD Challenge](https://cm
 Questions are from [cmdchallenge.com](https://cmdchallenge.com).
 
 ## 📑 Table of Contents
-1. [Hello World](#1-print-hello-world)  
-2. [Current Working Directory](#2-print-the-current-working-directory)
-3. [List Files](#3-list-files-in-the-current-directory)
-4. [File Contents](#4-display-the-contents-of-accesslog)
-5. [Last Lines](#5-print-the-last-5-lines-of-accesslog)
-6. [Create a File](#6-create-an-empty-file-named-take-the-command-challenge)
-7. [Create a Directory](#7-create-a-directory-tmpfiles)
+1.  [Hello World](#1-print-hello-world)  
+2.  [Current Working Directory](#2-print-the-current-working-directory)
+3.  [List Files](#3-list-files-in-the-current-directory)
+4.  [File Contents](#4-display-the-contents-of-accesslog)
+5.  [Last Lines](#5-print-the-last-5-lines-of-accesslog)
+6.  [Create a File](#6-create-an-empty-file-named-take-the-command-challenge)
+7.  [Create a Directory](#7-create-a-directory-tmpfiles)
+8.  [Copy File](#8-copy-file)
+9.  [Move File](#9-move-file)
+10. [Symbolic Link](#10-symbolic-link)
 
-
-
-
-
-
+       
 ---
 
 ## 1) Hello World
@@ -91,6 +90,36 @@ mkdir -p tmp/files
 ```
 Note:
 Without -p, the command would fail if tmp doesn’t exist.
+
+---
+
+## 8) Copy File
+**Task:** Copy the file named `take-the-command-challenge` to the directory `tmp/files`.  
+
+**My Solution:**
+```bash
+cp take-the-command-challenge tmp/files
+```
+
+---
+
+## 9) Move File
+**Task:** Move the file named `take-the-command-challenge` to the directory `tmp/files`.  
+
+**My Solution:**
+```bash
+mv take-the-command-challenge tmp/files
+```
+
+---
+
+## 10) Symbolic Link
+**Task:** Create a symbolic link named `take-the-command-challenge` that points to the file `tmp/files/take-the-command-challenge`.  
+
+**My Solution:**
+```bash
+ln -s tmp/files/take-the-command-challenge take-the-command-challenge
+```
 
 ---
 
