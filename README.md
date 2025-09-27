@@ -4,7 +4,8 @@ This repository contains my personal solutions to the [CMD Challenge](https://cm
 Questions are from [cmdchallenge.com](https://cmdchallenge.com).
 
 ## 📑 Table of Contents
-1. [Print "hello world"](#1-print-hello-world)
+1. [Print "hello world"](#1-print-hello-world)  
+2. [Print the current working directory](#2-print-the-current-working-directory)
 
 ---
 
@@ -14,3 +15,12 @@ Questions are from [cmdchallenge.com](https://cmdchallenge.com).
 **My Solution:**
 ```bash
 echo "hello world"
+```
+## 2) Print the current working directory
+**Task:** Print the path of the current working directory.  
+
+**My Solution:**
+```bash
+pwd
+```
+
